@@ -1,0 +1,193 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+body {
+    background-color: rgb(56, 7, 5);
+    aspect-ratio: auto;
+}
+.marvel{
+    background-image: url(marvelimg.jpg);
+    background-size: cover;
+}
+nav {
+    background-color: red;
+}
+
+.page1 {
+    color: white;
+    font-family: "Dela Gothic One", sans-serif;
+    font-style: italic;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 160%;
+}
+
+.hd2 {
+    font-size: 60%;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.dm {
+    background-color: red;
+    color: white;
+    font-display: bold;
+    font-size: 100%;
+    display: inline;
+    width: 15%;
+    height: 50%;
+    margin-right: 40%;
+    margin-top: 2%;
+    border-radius: 10px;
+    aspect-ratio: auto;
+}
+
+button a {
+    text-decoration: none;
+}
+
+.join {
+    background-color: black;
+    color: red;
+    font-display: bold;
+    font-size: 100%;
+    border-color: red;
+    display: inline-block;
+    width: 15%;
+    height: 50%;
+    margin-right: 40%;
+    margin-top: 2%;
+    border-radius: 10px;
+    aspect-ratio: auto;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.navbar li a {
+    padding: 5px, 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.page2 {
+    color: white;
+}
+
+.head2 {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+span {
+    display: inline-block;
+    width: 20%;
+    height: 50%;
+}
+
+.head4 {
+    color: white;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.table {
+    color: white;
+}
+
+table {
+    width: 400%;
+    margin-left: 50%;
+    font-size: 125%;
+    margin-top: 5%;
+    /* border-radius: 10px 10px;
+    box-shadow: 10px 10px rgb(121, 115, 115); */
+}
+
+tr {
+    height: 60px;
+    background-color: grey;
+}
+
+.nau {
+    width: 380.800px;
+    padding-right: 20px;
+}
+
+.box1 {
+    display: inline-block;
+    border-radius: 2px solid red;
+    background-color: red;
+    width: 7%;
+    height: 15%;
+}
+
+.box2 {
+    display: inline-block;
+    border-radius: 2px solid red;
+    background-color: red;
+    width: 7%;
+    height: 15%;
+}
+
+.box3 {
+    display: inline-block;
+    border-radius: 2px solid red;
+    background-color: red;
+    width: 15%;
+    height: 15%;
+}
+
+.head3 {
+    color: white;
+    margin-top: 7%;
+    margin-left: 20%;
+}
+
+.head5 {
+    color: white;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: 300%;
+}
+
+.table2 {
+    width: 90%;
+    margin-left: 5%;
+    color: white;
+}
+
+.tdata2{
+    width: 300px;
+    padding-top: 10px;
+}
+
+.links {
+    list-style-type: circle;
+    color: white;
+    font-size: 170%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.links:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+button:hover{
+    text-decoration: underline;
+}
