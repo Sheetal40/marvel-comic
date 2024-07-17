@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 10px 20px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+            background-color: red;
+        }
+
+        .navbar li a {
+            padding: 5px, 5px;
+            text-decoration: none;
+            color: white;
+        }
+
+        h1{
+            color: white;
+            margin-top: 150px;
+            margin-left:150px;
+        }
+
+        table{
+            margin-left: 150px;
+            color: white;
+            font-size: 20px;
+        }
+
+        th{
+            padding-top: 20px;
+            width: 300px;
+        }
+        td{
+            padding-top: 20px;
+        }
+        .fmore{
+            text-decoration: none;
+            color: white;
+        }
+
+        .fmore:hover{
+            text-decoration: underline;
+        }
+
+        @media (max-width:768px) {
+            .navbar{
+               width: 760px;
+            }
+            table{
+                margin-left: 70px;
+            }
+            ul{
+                padding-left: 20px;
+            }
+        }
+
+        @media (max-width:425px){
+            .navbar{
+                width: 400px;
+                height: 200px;
+             }
+             h1{
+                margin-left: 400px;
+             }
+             table style{
+                margin-left: 400px;
+             }
+             tr{
+                padding-right: 20px;
+             }
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="marvel.html" target="_self">Home</a></li>
+            <li><a href="nandu.html" target="_self">News and Updates </a></li>
+            <li><a href="charprofile.html" target="_self">Character Profiles</a></li>
+            <li><a href="Mandtv.html" target="_self">Movies and TV Shows</a></li>
+            <li><a href="comicarch.html" target="_self">Comic Archies</a></li>
+        </ul>
+    </nav>
+    <h1>
+        Engaging User Experience​
+    </h1>
+    <table>
+        <tr>
+            <th>Intuitive Navigation​</th>
+            <th>Interactive Features​</th>
+            <th>Mobile-Friendly</th>
+        </tr>
+        <tr>
+            <td>Easily find the content you're looking for with our user-friendly website design.<br><br>
+                <a href="discover.html" class="fmore">
+                    Click here to find more about our website!!
+                </a>​</td>
+            <td>Engage with quizzes, polls, and comment sections to deepen your Marvel knowledge..<br><br>
+                <a href="comicarch.html" class="fmore">
+                    Click here to join the craziness and enjoy your time!!
+                </a>​</td>
+            <td>Access the Marvel Universe anytime, anywhere, on your preferred device..<br><br>
+                <a href="community.html" class="fmore">
+                    Click here to join the Marvel universe us!!
+                </a>​</td>
+        </tr>
+    </table>
+</body>
+</html>
